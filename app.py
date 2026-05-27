@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 import google.generativeai as genai
 import base64
 
-OPENWEATHER_API_KEY = "0d5e6c3a66d3d41adac3ddf935534d8d"
+OPENWEATHER_API_KEY = "AIzaSyDeoTjB83OeuK0eZC9L_txFLAe4nDj1pEw"
 GEMINI_API_KEY = "AIzaSyDeoTjB83OeuK0eZC9L_txFLAe4nDj1pEw"
 genai.configure(api_key=GEMINI_API_KEY)
 
