@@ -9,7 +9,7 @@ import base64
 
 OPENWEATHER_API_KEY = "0d5e6c3a66d3d41adac3ddf935534d8d"
 GEMINI_API_KEY = "AIzaSyDeoTjB83OeuK0eZC9L_txFLAe4nDj1pEw"
-genai.configure(api_key=AIzaSyDeoTjB83OeuK0eZC9L_txFLAe4nDj1pEw)
+genai.configure(api_key=GEMINI_API_KEY)
 
 st.set_page_config(page_title="CropCast Global", page_icon="🌾", layout="wide", initial_sidebar_state="expanded")
 
